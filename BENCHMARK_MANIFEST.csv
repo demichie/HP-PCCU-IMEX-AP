@@ -1,0 +1,14 @@
+manuscript_benchmark,driver,archived_reference
+Lake at rest,benchmarks/hydrodynamic_1d/run_hydrodynamic.py,reference_results/lake_metrics.json
+Smooth bump SWASHES,benchmarks/smooth_bump/run_swashes_smooth_bump.py,reference_results/smooth_bump_L1_errors.csv; reference_results/smooth_bump_detailed_errors.csv
+Ritter dry-bed dam break,benchmarks/hydrodynamic_1d/run_hydrodynamic.py,reference_results/ritter_metrics.json
+Rough-topography dry release,benchmarks/hydrodynamic_1d/run_hydrodynamic.py,reference_results/rough_N80.npz; rough_N160.npz; rough_N320.npz; rough_N640_full.npz
+Inclined excavation without rheology,benchmarks/hydrodynamic_1d/run_excavation_zero_rheology.py,reference_results/exc_metrics.json
+Damped Gaussian and square pulses,benchmarks/damped_pulses/run_damped_pulses.py,reference_results/damped_pulses_N200_errors.csv
+AP-off time-step sensitivity,benchmarks/damped_pulses/run_apoff_dt_sensitivity.py,reference_results/damped_pulses_APoff_dt_sensitivity.csv
+Relaxation toward lake at rest,benchmarks/relaxation_lake/run_relaxation_lake.py,reference_results/relaxation_lake_reference.csv
+Strongly viscous rough topography,benchmarks/rough_newtonian/run_rough_newtonian.py,reference_results/rough_rheology_highres_metrics.csv
+Bingham arrest,benchmarks/bingham_arrest/run_bingham_arrest.py,reference_results/bingham_metrics.csv; reference_results/bingham_selfdiff.csv
+Inclined excavation with rheology,benchmarks/excavation_1d/run_excavation_rheology.py,reference_results/inclined_excavation_rheology_limit.csv
+Two-dimensional excavation,benchmarks/excavation_2d/run_excavation_2d.py,reference_results/inclined_excavation_2d_imex_metrics.csv
+Circular two-dimensional expansion,benchmarks/circular_2d/run_circular_expansion.py,reference_results/circular_2d_reference.csv

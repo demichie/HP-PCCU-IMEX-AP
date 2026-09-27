@@ -1,0 +1,62 @@
+[
+  {
+    "N": 50,
+    "case": "bump",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 50,
+    "case": "excavation",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 100,
+    "case": "bump",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 100,
+    "case": "excavation",
+    "eta_inf": 2.220446049250313e-16,
+    "u_inf": 2.0985718812485268e-15
+  },
+  {
+    "N": 200,
+    "case": "bump",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 200,
+    "case": "excavation",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 400,
+    "case": "bump",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 400,
+    "case": "excavation",
+    "eta_inf": 2.220446049250313e-16,
+    "u_inf": 4.327159300372479e-15
+  },
+  {
+    "N": 800,
+    "case": "bump",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  },
+  {
+    "N": 800,
+    "case": "excavation",
+    "eta_inf": 0.0,
+    "u_inf": 0.0
+  }
+]
